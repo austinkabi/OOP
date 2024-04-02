@@ -6,4 +6,8 @@ s3=int(input())
 p=s1+s2+s3
 print("The addition of {} {} {} gives perimeter of {}".format(s1,s2,s3,p))
 s=p/2
-A=
+pa=s*(s-s1)*(s-s2)*(s-s3)
+print("pa is equal to {}".format(pa))
+import math 
+A=math.sqrt(pa)
+print("The area is {}".format(A))
